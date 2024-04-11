@@ -26,7 +26,7 @@ namespace WMS_lib
             float avg = CalculateAverage(temperatures);
             float high = FindHighestTemperature(temperatures);
 
-            Console.WriteLine($"Average temperature: {avg}°C, Highest temperature: {high}°C");
+            Console.WriteLine($"Statistic Average temperature: {avg}°C, Highest temperature: {high}°C");
         }
 
         private float CalculateAverage(float[] temperatures)

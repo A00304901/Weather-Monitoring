@@ -2,7 +2,7 @@
 
 
         weather_data a = weather_data.Instance;
-
+        a.RegisterObserver(new Current_Conditions_Display());
         a.RegisterObserver(new Forecast_Display());
         a.RegisterObserver(new Statistics_Display());
 

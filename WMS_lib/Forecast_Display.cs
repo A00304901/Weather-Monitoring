@@ -9,7 +9,7 @@ namespace WMS_lib
         {
             // Implement weather forecast logic and display here
             Console.WriteLine("Weather Forecast Display:");
-            Console.WriteLine("Implementation pending...");
+            Console.WriteLine("I like all weathers....!!!");
         }
     }
 }
